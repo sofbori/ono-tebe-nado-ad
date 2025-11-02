@@ -46,7 +46,7 @@
   background-size: 1100px 757px;
   height: 757px;
   background-repeat: no-repeat;
-  margin-bottom: 178px;
+  margin-bottom: 180px;
 
   color: white;
   padding: 165px 50px 50px 50px;
@@ -76,7 +76,7 @@
   font-size: 100px;
   bottom: 0;
   right: 0;
-      transform: translate(7%, -1%);/*подогнала*/
+  transform: translate(7%, -1%);/*подогнала*/
 }
 .description {
   margin-top: auto;
@@ -93,8 +93,9 @@
   text-transform: uppercase;
   font: inherit;
   color: inherit;
-  padding: 13px 31px;
-  border-color: white;
+  height:  50px;
+  width:255px;
+  border-color: 1px solid white;
 }
 .title-lots {
   font: "Raleway";
@@ -111,7 +112,7 @@
 .lots_list {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0;
+  margin: 27px 0 30px;
 }
 .lots_item {
   width: 334px;
@@ -228,11 +229,10 @@
   margin-bottom: 0; /* Убираем отступ у второго абзаца */
 }
 .footer {
-  margin-top: 175px;
-  padding-bottom: 82px;
+  margin-top: 180px;
+  height: 180px;
   padding: 0 50px;
   display: grid;
-  align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .footer__menu {
@@ -246,7 +246,7 @@
   text-align: center;
 }
 .adr-foot{
-  margin-left: -100px;
+  justify-self: start;
 }
 .footer__menu-link_active {
   text-decoration: none;
