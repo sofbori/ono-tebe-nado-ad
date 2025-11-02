@@ -76,7 +76,7 @@
   font-size: 100px;
   bottom: 0;
   right: 0;
-  transform: translate(7%, -1%);/*подогнала*/
+  transform: translate(7%, -1%); /*подогнала*/
 }
 .description {
   margin-top: auto;
@@ -93,8 +93,8 @@
   text-transform: uppercase;
   font: inherit;
   color: inherit;
-  height:  50px;
-  width:255px;
+  height: 50px;
+  width: 255px;
   border-color: 1px solid white;
 }
 .title-lots {
@@ -189,7 +189,7 @@
   height: 240px;
   background-color: black; /* Черный фон для круга */
   border-radius: 50%;
-  margin: 35px 70px ; /*0 auto; Центрирование контейнера в колонке */
+  margin: 35px 70px; /*0 auto; Центрирование контейнера в колонке */
 }
 
 .about__logo {
@@ -245,7 +245,7 @@
   font-size: 18px;
   text-align: center;
 }
-.adr-foot{
+.adr-foot {
   justify-self: start;
 }
 .footer__menu-link_active {
