@@ -46,7 +46,7 @@
   background-size: 1100px 757px;
   height: 757px;
   background-repeat: no-repeat;
-  margin-bottom: 180px;
+  margin-bottom: 178px;
 
   color: white;
   padding: 165px 50px 50px 50px;
@@ -127,7 +127,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 40px 48px;
+  padding: 48px 40px;
   z-index: 1;
 }
 .lot-card-title,
@@ -173,9 +173,10 @@
 }
 
 .about_columns {
+  margin-right: 24px;
   display: grid;
   grid-template-columns: 334px 1fr; /* Первая колонка 334px, вторая - остальное пространство */
-  gap: 40px; /* Отступ между колонками */
+  gap: 50px; /* Отступ между колонками */
   align-items: start; /* Выравнивание по верхнему краю */
   margin-top: 0px;
 }
@@ -227,7 +228,7 @@
   margin-bottom: 0; /* Убираем отступ у второго абзаца */
 }
 .footer {
-  margin-top: 180px;
+  margin-top: 175px;
   padding-bottom: 82px;
   padding: 0 50px;
   display: grid;
@@ -243,6 +244,9 @@
   font-weight: 400;
   font-size: 18px;
   text-align: center;
+}
+.adr-foot{
+  margin-left: -100px;
 }
 .footer__menu-link_active {
   text-decoration: none;
